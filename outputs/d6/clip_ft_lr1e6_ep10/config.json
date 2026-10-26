@@ -1,0 +1,13 @@
+{
+  "metadata": "outputs/d5/embeddings/metadata.json",
+  "output": "outputs/d6/clip_ft_lr1e6_ep10",
+  "epochs": 10,
+  "batch_size": 16,
+  "lr": 1e-06,
+  "weight_decay": 0.01,
+  "seed": 42,
+  "max_steps": 0,
+  "skip_eval": false,
+  "log_every": 25,
+  "no_amp": false
+}

@@ -1,0 +1,16 @@
+{
+  "epoch": 5,
+  "global_step": 1565,
+  "mean_train_loss": 0.470284,
+  "blip_threshold": 0.92,
+  "blip_mask_unique_pairs": 28,
+  "blip_mask_positions": 2,
+  "blip_masked_batches": 2,
+  "blip_hit_pairs_this_epoch": 2,
+  "T2I_R@1": 72.6233,
+  "I2T_R@1": 87.574,
+  "T2I_R@5": 91.6371,
+  "I2T_R@5": 97.2387,
+  "T2I_R@10": 95.3254,
+  "I2T_R@10": 98.5207
+}

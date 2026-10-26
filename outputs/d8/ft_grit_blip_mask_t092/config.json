@@ -1,0 +1,32 @@
+{
+  "metadata": "outputs/d5/embeddings/metadata.json",
+  "group_file": "outputs/d7/grit_batches/grouped_batches.json",
+  "audit_file": "outputs/d8/codex_audit_384/blip_vs_codex.csv",
+  "threshold": 0.92,
+  "sampler": "grit",
+  "output": "outputs/d8/ft_grit_blip_mask_t092",
+  "epochs": 10,
+  "batch_size": 16,
+  "lr": 1e-06,
+  "weight_decay": 0.01,
+  "seed": 42,
+  "max_steps": 0,
+  "skip_eval": false,
+  "dry_run": false,
+  "log_every": 25,
+  "no_amp": false,
+  "group_file_seed": 42,
+  "blip_mask_unique_pairs": 28,
+  "planned_mask_hits_per_epoch": [
+    4,
+    2,
+    3,
+    4,
+    2,
+    1,
+    4,
+    3,
+    1,
+    5
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "metadata": "outputs/d5/embeddings/metadata.json",
+  "group_file": "outputs/d7/grit_batches/grouped_batches.json",
+  "sampler": "grit",
+  "output": "outputs/d7/ft_grit_style",
+  "epochs": 10,
+  "batch_size": 16,
+  "lr": 1e-06,
+  "weight_decay": 0.01,
+  "seed": 42,
+  "max_steps": 0,
+  "skip_eval": false,
+  "log_every": 25,
+  "no_amp": false,
+  "group_file_seed": 42
+}

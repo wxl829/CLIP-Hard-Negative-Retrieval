@@ -1,0 +1,52 @@
+# Raw or cached datasets (including any local Flickr30k images/captions)
+data/
+# PyTorch checkpoints and Hugging Face model files
+*.safetensors
+*.bin
+*.ckpt
+*.pth
+*.pt
+# Training scratch / local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.cache/
+.ipynb_checkpoints/
+*.log
+# Avoid publishing archives, model metadata, or human-review bundles accidentally
+*.zip
+*.tar
+*.tar.gz
+
+# Local review material and tooling
+.tools/
+hard_negative_audit.*
+review_assets/
+PUBLISH_CHECKLIST.txt
+.DS_Store
+Thumbs.db
+*.pem
+*.key
+credentials*
+
+# Generated outputs: publish only the existing experiment evidence below
+outputs/**
+!outputs/**/
+!outputs/d3/baseline_metrics.json
+!outputs/d3/error_analysis/*statistics.csv
+!outputs/d6/clip_ft_lr1e6_ep10/config.json
+!outputs/d6/clip_ft_lr1e6_ep10/history.json
+!outputs/d6/clip_ft_lr1e6_ep10/best/metrics.json
+!outputs/d7/seed_summary.csv
+!outputs/d7/ft_*/config.json
+!outputs/d7/ft_*/history.json
+!outputs/d7/ft_*/best/metrics.json
+!outputs/d7/grit_batches*/batch_quality.csv
+!outputs/d7/grit_batches*/grouped_batches.json
+!outputs/d8/codex_audit_384/blip_threshold_sweep.csv
+!outputs/d8/ft_grit_blip_mask_t092/config.json
+!outputs/d8/ft_grit_blip_mask_t092/history.json
+!outputs/d8/ft_grit_blip_mask_t092/best/metrics.json

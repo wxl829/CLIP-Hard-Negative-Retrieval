@@ -1,0 +1,3 @@
+direction,Action confusion,Attribute confusion,Detail omission,Object/Subject confusion,Over-inference,Scene similarity,Spatial relation confusion
+I2T,6,7,3,6,9,1,3
+T2I,11,7,4,3,0,1,5

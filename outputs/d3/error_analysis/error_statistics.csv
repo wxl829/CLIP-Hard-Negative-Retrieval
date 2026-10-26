@@ -1,0 +1,8 @@
+primary_error,count
+Action confusion,17
+Attribute confusion,14
+Over-inference,9
+Object/Subject confusion,9
+Spatial relation confusion,8
+Detail omission,7
+Scene similarity,2
